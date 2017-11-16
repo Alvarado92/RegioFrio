@@ -10,11 +10,8 @@ using System.Windows.Forms;
 
 namespace RfoApp
 {
-    public partial class Form1 : Form
+    public partial class menusForm : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        public menusForm() => InitializeComponent();
     }
 }
