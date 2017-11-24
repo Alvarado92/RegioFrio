@@ -45,25 +45,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ingresoForm.cs">
+    <Compile Include="Ingreso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ingresoForm.Designer.cs">
-      <DependentUpon>ingresoForm.cs</DependentUpon>
+    <Compile Include="Ingreso.Designer.cs">
+      <DependentUpon>Ingreso.cs</DependentUpon>
     </Compile>
-    <Compile Include="menusForm.cs">
+    <Compile Include="InventarioEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menusForm.Designer.cs">
-      <DependentUpon>menusForm.cs</DependentUpon>
+    <Compile Include="InventarioEntrada.Designer.cs">
+      <DependentUpon>InventarioEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ingresoForm.resx">
-      <DependentUpon>ingresoForm.cs</DependentUpon>
+    <EmbeddedResource Include="Ingreso.resx">
+      <DependentUpon>Ingreso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menusForm.resx">
-      <DependentUpon>menusForm.cs</DependentUpon>
+    <EmbeddedResource Include="InventarioEntrada.resx">
+      <DependentUpon>InventarioEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

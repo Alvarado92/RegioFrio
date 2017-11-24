@@ -16,7 +16,7 @@ namespace RfoApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ingresoForm());
+            Application.Run(new Ingreso());
         }
     }
 }

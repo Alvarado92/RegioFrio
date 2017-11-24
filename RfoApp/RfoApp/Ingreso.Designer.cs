@@ -1,6 +1,6 @@
 ﻿namespace RfoApp
 {
-    partial class ingresoForm
+    partial class Ingreso
     {
         /// <summary>
         /// Required designer variable.
